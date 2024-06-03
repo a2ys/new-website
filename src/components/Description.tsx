@@ -5,11 +5,11 @@ const Description = () => {
         <p className="mb-3 text-lg font-semibold tracking-wide md:text-xl text-blue-600">
           Open Source Developer
         </p>
-        {/* <h1 className="mb-4 text-5xl md:text-7xl font-bold">
+        <h1 className="mb-4 text-5xl md:text-7xl font-bold">
           Programming. <br className="hidden md:block" />
           Leadership. <br className="hidden md:block" />
           Problem Solving.
-        </h1> */}
+        </h1>
       </div>
     </div>
   );
