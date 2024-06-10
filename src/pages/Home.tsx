@@ -1,10 +1,10 @@
 const Home = () => {
   return (
     <main>
-      <div className="flex flex-col items-center justify-center pt-20 text-black hero lg:pt-30 lg:pb-20 lg:mb-30">
+      <div className="flex flex-col items-center justify-center pt-40 text-black hero lg:pt-30 lg:pb-10 lg:mb-10">
         <div className="text-center">
-          <p className="mb-3 text-lg font-semibold tracking-wide md:text-xl text-blue-600">
-            Open Source Developer
+          <p className="mb-3 text-lg font-semibold tracking-wide md:text-xl text-blue-600 uppercase">
+            Open source developer
           </p>
           <h1 className="mb-4 text-5xl md:text-7xl font-bold">Aayush Shukla</h1>
         </div>
