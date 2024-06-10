@@ -30,7 +30,7 @@ const Home = () => {
                 Python and Java.
               </li>
               <li className="mb-1">
-                Leadership: I have led many projects,both public and private,
+                Leadership: I have led many projects, both public and private,
                 and I am good at leading teams and strategizing roadmaps.
               </li>
               <li>
