@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <main>
-      <div className="pt-10 mt-20 mb-20 lg:pt-30 lg:mt-30 lg:mb-40 sup:mb-40">
+      <div className="pt-10 mt-40 mb-40 lg:pt-30 lg:mt-30 lg:mb-40 sup:mb-40">
         <div
           data-animate="fade"
           className="mod-container in-viewport"
