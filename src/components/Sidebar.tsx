@@ -32,13 +32,6 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }: SidebarProps) => {
         >
           About
         </a>
-        <a
-          href="/contact"
-          title="Link to Contact page"
-          className="block mb-3 text-xl font-medium hover:text-white text-black"
-        >
-          Contact
-        </a>
       </nav>{" "}
       <div className="flex flex-wrap justify-between mt-auto">
         <a

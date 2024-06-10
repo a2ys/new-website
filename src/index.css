@@ -11,6 +11,10 @@
     :root { font-family: InterVariable, sans-serif; }
 }
 
+body {
+    margin: 0;
+}
+
 *, :after, :before {
     box-sizing: border-box;
     border: 0 solid;
@@ -171,11 +175,11 @@ main {
 .sidebar {
     transform: translateX(100%);
     transition: transform 0.3s ease;
-  }
+}
   
-  .sidebar.open {
+.sidebar.open {
     transform: translateX(0);
-  }
+}
 
 @media (min-width: 560px) {
     .big-email {

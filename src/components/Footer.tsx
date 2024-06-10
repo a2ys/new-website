@@ -35,13 +35,6 @@ const Footer = () => {
               >
                 <span className="anchor-link">About</span>
               </a>
-              <a
-                href="/contact"
-                title="Link to Contact page"
-                className="block mb-1 text-white"
-              >
-                <span className="anchor-link">Contact</span>
-              </a>
             </nav>
           </div>
         </div>
