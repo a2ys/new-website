@@ -11,18 +11,15 @@
     :root { font-family: InterVariable, sans-serif; }
 }
 
-* {
+body {
+    margin: 0;  
     overflow-y: scroll;
     scrollbar-width: none;
-    -ms-overflow-style: none;
+    -ms-overflow-style: none; 
 }
 
-*::-webkit-scrollbar {
+body::-webkit-scrollbar {
     display: none;
-}
-
-body {
-    margin: 0;   
 }
 
 *, :after, :before {
@@ -40,7 +37,7 @@ h1,h2,h3,h4,h5,h6 {
     font-size: 3rem;
     line-height: 1.1em;
     letter-spacing: -.022em;
-    font-weight: 800
+    font-weight: 700
 }
 
 @media (min-width: 560px) {
