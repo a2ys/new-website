@@ -22,7 +22,7 @@ const Footer = () => {
             </h4>{" "}
             <nav>
               <a
-                href="/Works/"
+                href="/works/"
                 title="Link to Works page"
                 className="block mb-1 text-white"
               >
