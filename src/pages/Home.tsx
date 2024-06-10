@@ -6,10 +6,7 @@ const Home = () => {
           <p className="mb-3 text-lg font-semibold tracking-wide md:text-xl text-blue-600">
             Open Source Developer
           </p>
-          <h1 className="mb-4 text-5xl md:text-7xl font-bold">
-            Programming. <br className="hidden md:block" />
-            Leadership.
-          </h1>
+          <h1 className="mb-4 text-5xl md:text-7xl font-bold">Aayush Shukla</h1>
         </div>
       </div>
       <div
