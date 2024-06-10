@@ -164,6 +164,10 @@ main {
     font-weight: 700;
 }
 
+.sidebar {
+    width: 100%;
+}
+
 @media (min-width: 560px) {
     .big-email {
         font-size:2.3rem;
@@ -176,6 +180,10 @@ main {
         font-size:3rem;
         line-height: 3.5rem;
     }
+
+    main .sidebar {
+        padding-top: 7.5rem;
+    }
 }
 
 .anchor-link {
@@ -184,4 +192,32 @@ main {
 
 .anchor-link:hover {
     box-shadow: inset 0 -3px 0 0 rgb(147 197 253 / var(--tw-text-opacity));
+}
+
+.close-link {
+    position: absolute;
+    top: 1.3rem;
+    right: 1.5rem
+}
+
+.menu {
+    height: 100vh
+}
+
+@supports (-webkit-touch-callout:none) {
+    .menu {
+        height: -webkit-fill-available
+    }
+}
+
+.menu-slide-in-enter-active,.menu-slide-in-leave-active {
+    transition: all .4s cubic-bezier(.55,.055,.675,.19)
+}
+
+.menu-slide-in-enter,.menu-slide-in-leave-to {
+    transform: translateX(100%)
+}
+
+.menu-slide-in-enter-to,.menu-slide-in-leave {
+    transform: translateX(0)
 }
