@@ -127,6 +127,18 @@ li,p {
     transform: translateY(0)
 }
 
+[data-animate^=fade] {
+    opacity: 0;
+    transition: .3s cubic-bezier(.645,.045,.355,1);
+    transition-property: opacity, transform;
+    transition-duration: .75s;
+}
+
+[data-animate^=fade].in-viewport {
+    opacity: 1;
+    transform: translate(0);
+}
+
 .inner {
     display: flex;
     min-height: 100vh;
@@ -138,7 +150,7 @@ main {
     display: block;
 }
 
-.container {
+.mod-container {
     width: 100%;
     max-width: 1340px;
     margin-left: auto;
@@ -233,4 +245,14 @@ main {
 
 .menu-slide-in-enter-to,.menu-slide-in-leave {
     transform: translateX(0)
+}
+
+.feather {
+    width: 24px;
+    height: 24px;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
 }
