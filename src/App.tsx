@@ -1,12 +1,16 @@
 import "./index.css";
 import Header from "./components/Header";
 import Description from "./components/Description";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
-      <Header />
-      <Description />
+      <div className="inner">
+        <Header />
+        <Description />
+        <Footer />
+      </div>
     </>
   );
 }
