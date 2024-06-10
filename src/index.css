@@ -12,14 +12,7 @@
 }
 
 body {
-    margin: 0;  
-    overflow-y: scroll;
-    scrollbar-width: none;
-    -ms-overflow-style: none; 
-}
-
-body::-webkit-scrollbar {
-    display: none;
+    margin: 0;
 }
 
 *, :after, :before {
