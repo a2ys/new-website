@@ -191,6 +191,20 @@ main {
     text-underline-offset: 3px;
 }
 
+.feather path,
+.feather rect,
+.feather circle,
+.feather line {
+    transition: stroke .2s cubic-bezier(.785,.135,.15,.86);
+}
+
+.feather:hover path,
+.feather:hover rect,
+.feather:hover circle,
+.feather:hover line {
+    stroke: rgb(147 197 253 / var(--tw-text-opacity));
+}
+
 .close-link {
     position: absolute;
     top: 1.3rem;
