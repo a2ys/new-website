@@ -29,7 +29,6 @@ h1,h2,h3,h4,h5,h6 {
 .h1 {
     font-size: 3rem;
     line-height: 1.1em;
-    letter-spacing: -.022em;
     font-weight: 700
 }
 
@@ -49,7 +48,6 @@ h1,h2,h3,h4,h5,h6 {
     font-size: 1.5rem;
     font-weight: 700;
     line-height: 1.3em;
-    letter-spacing: -.022em
 }
 
 @media (min-width: 560px) {
@@ -68,7 +66,6 @@ h1,h2,h3,h4,h5,h6 {
     font-size: 1.25rem;
     line-height: 1.3em;
     font-weight: 600;
-    letter-spacing: .005em
 }
 
 @media (min-width: 560px) {
@@ -80,23 +77,17 @@ h1,h2,h3,h4,h5,h6 {
 .h4 {
     font-size: 1.15rem;
     font-weight: 500;
-    letter-spacing: -.013em
 }
 
 @media (min-width: 560px) {
     .h4 {
         font-size:1.25rem;
-        letter-spacing: -.014em
     }
 }
 
 .h5 {
     font-size: 1.15rem;
     font-weight: 500
-}
-
-.h5,li,p {
-    letter-spacing: -.013em
 }
 
 li,p {
@@ -153,7 +144,6 @@ main {
 .big-email {
     font-size: 1.6rem;
     line-height: 2.3rem;
-    letter-spacing: 0.005em;
     font-weight: 700;
 }
 
