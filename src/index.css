@@ -246,3 +246,13 @@ h2 .wave {
 h2:hover .wave {
     opacity: 1
 }
+
+.phone-socials {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    .phone-socials {
+        display: block;
+    }
+}
