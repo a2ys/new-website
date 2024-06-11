@@ -42,7 +42,7 @@ const Home = () => {
               </li>
               <li>
                 <a href="/about" className="font-medium">
-                  <div className="anchor-link">and more...</div>
+                  <span className="anchor-link">and more...</span>
                 </a>
               </li>
             </ul>
