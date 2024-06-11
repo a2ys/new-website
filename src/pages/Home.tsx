@@ -25,8 +25,8 @@ const Home = () => {
 
             <p>
               An open-source developer from India. I'm skilled in developing
-              programs/applications in Java and Python, and developing static
-              websites with React.
+              programs and applications in Java and Python, and developing
+              static websites with React.
             </p>
             <h3 className="mt-6 mb-4 h4">My key areas of expertise are:</h3>
             <ul className="ml-5 list-disc">
