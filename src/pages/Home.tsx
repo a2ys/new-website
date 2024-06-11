@@ -31,16 +31,17 @@ const Home = () => {
             <h3 className="mt-6 mb-4 h4">My key areas of expertise are:</h3>
             <ul className="ml-5 list-disc">
               <li className="mb-1">
-                Programming: I have more than 6 years of experience in
-                programming, and know many languages, out of which my best are
-                Python and Java.
+                <div className="inline-block font-medium">Programming</div>: I
+                have more than 6 years of experience in programming, and know
+                many languages, out of which my best are Python and Java.
               </li>
               <li className="mb-1">
-                Leadership: I have led many projects, both public and private,
-                and I am good at leading teams and strategizing roadmaps.
+                <div className="inline-block font-medium">Leadership</div>: I
+                have led many projects, both public and private, and I am good
+                at leading teams and strategizing roadmaps.
               </li>
               <li>
-                <a href="/about" className="anchor-link">
+                <a href="/about" className="font-medium">
                   and more...
                 </a>
               </li>

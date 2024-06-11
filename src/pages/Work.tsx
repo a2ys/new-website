@@ -48,7 +48,7 @@ const Work = () => {
               With plain Python, I created a chess engine and an AI which can
               play chess using the engine.
             </p>{" "}
-            <p className="mt-4 text-xs font-semibold tracking-wider uppercase text-blue-600">
+            <p className="mt-4 text-xs font-bold tracking-wider uppercase text-blue-600">
               Read More
             </p>
           </a>
@@ -72,7 +72,7 @@ const Work = () => {
             </div>{" "}
             <h2 className="mb-2 h2">Portfolio Website</h2>{" "}
             <p>My portfolio website created with React.</p>{" "}
-            <p className="mt-4 text-xs font-semibold tracking-wider uppercase text-blue-600">
+            <p className="mt-4 text-xs font-bold tracking-wider uppercase text-blue-600">
               Read More
             </p>
           </a>
