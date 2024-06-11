@@ -1,4 +1,12 @@
-const Works = () => {
+import { useEffect } from "react";
+import chess from "../assets/images/Chess.jpg";
+import portfolio from "../assets/images/Portfolio.png";
+
+const Work = () => {
+  useEffect(() => {
+    document.title = "Work | Aayush Shukla";
+  }, []);
+
   return (
     <div className="pt-10 mt-40 mb-40 lg:pt-30 lg:mt-30 lg:mb-40 sup:mb-40">
       <div
@@ -16,7 +24,7 @@ const Works = () => {
       <div className="mod-container mt-40">
         <div className="flex flex-wrap justify-between row">
           <a
-            href="/works/chess-ai"
+            href="/work/chess-ai"
             target="_blank"
             rel="noopener noreferrer"
             className="block w-full column lg:w-6/12 xl:w-5/12 mb-15 lg:mb-0 in-viewport below-viewport"
@@ -25,7 +33,7 @@ const Works = () => {
               <figure className="relative z-10 overflow-hidden">
                 <div className="absolute inset-0 z-10 bg-black overlay"></div>{" "}
                 <img
-                  src="/assets/chess.jpg"
+                  src={chess}
                   width="640"
                   height="597"
                   alt="Thumbnail for Chess AI"
@@ -45,14 +53,14 @@ const Works = () => {
             </p>
           </a>
           <a
-            href="/works/portfolio"
+            href="/work/portfolio"
             className="block w-full column lg:w-6/12 xl:w-5/12 mb-15 lg:mb-0 lg:mt-30 in-viewport below-viewport"
           >
             <div className="relative mb-10 thumbnail">
               <figure className="relative z-10 overflow-hidden">
                 <div className="absolute inset-0 z-10 bg-black overlay"></div>{" "}
                 <img
-                  src="/assets/portfolio.png"
+                  src={portfolio}
                   width="640"
                   height="597"
                   alt="Thumbnail for Portfolio Website"
@@ -74,4 +82,4 @@ const Works = () => {
   );
 };
 
-export default Works;
+export default Work;

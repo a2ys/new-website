@@ -1,4 +1,10 @@
+import { useEffect } from "react";
+
 const About = () => {
+  useEffect(() => {
+    document.title = "About | Aayush Shukla";
+  }, []);
+
   return (
     <main>
       <div className="pt-10 mt-40 mb-40 lg:pt-30 lg:mt-30 lg:mb-40 sup:mb-40">

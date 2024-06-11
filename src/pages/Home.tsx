@@ -1,4 +1,10 @@
+import { useEffect } from "react";
+
 const Home = () => {
+  useEffect(() => {
+    document.title = "Home | Aayush Shukla";
+  }, []);
+
   return (
     <main>
       <div className="flex flex-col items-center justify-center pt-40 text-black hero lg:pt-30 lg:pb-10 lg:mb-10">

@@ -19,11 +19,11 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }: SidebarProps) => {
       </button>{" "}
       <nav role="navigation">
         <a
-          href="/works"
-          title="Link to Works page"
+          href="/work"
+          title="Link to Work page"
           className="block mb-3 text-xl font-medium hover:text-white text-black"
         >
-          Works
+          Work
         </a>
         <a
           href="/about"
