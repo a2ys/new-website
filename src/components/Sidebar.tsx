@@ -35,18 +35,6 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }: SidebarProps) => {
       </nav>{" "}
       <div className="flex flex-wrap justify-between mt-auto">
         <a
-          href="mailto:me@a2ys.dev"
-          title="Link to Mail"
-          target="_blank"
-          rel="me nofollow noreferrer"
-          className="text-black hover:text-white"
-        >
-          <svg className="feather">
-            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-            <polyline points="22,6 12,13 2,6"></polyline>
-          </svg>
-        </a>
-        <a
           href="https://twitter.com/unreal_sapien"
           title="Link to Twitter"
           target="_blank"
@@ -55,6 +43,20 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }: SidebarProps) => {
         >
           <svg className="feather">
             <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+          </svg>
+        </a>
+        <a
+          href="https://blog.a2ys.dev"
+          title="Link to Blog"
+          target="_blank"
+          rel="me nofollow noreferrer"
+          className="text-black hover:text-white"
+        >
+          <svg className="feather">
+            <path d="M12 19l7-7 3 3-7 7-3-3z"></path>
+            <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path>
+            <path d="M2 2l7.586 7.586"></path>
+            <circle cx="11" cy="11" r="2"></circle>
           </svg>
         </a>
         <a
