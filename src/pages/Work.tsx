@@ -18,7 +18,7 @@ const Work = () => {
       <div className="mod-container mt-40">
         <div className="flex flex-wrap justify-between row">
           <a
-            href="/work/chess-ai"
+            href="https://github.com/a2ys/chess-ai"
             target="_blank"
             rel="noopener noreferrer"
             className="block w-full column lg:w-6/12 xl:w-5/12 mb-15 lg:mb-0"
@@ -35,17 +35,18 @@ const Work = () => {
               </figure>{" "}
               <div className="z-0 border-line"></div>
             </div>{" "}
-            <h2 className="mb-2 h2">Chess AI in Python</h2>{" "}
+            <h2 className="mb-2 h2">Chess Engine and AI</h2>{" "}
             <p>
-              With plain Python, I created a chess engine and an AI which can
-              play chess using the engine.
+              With plain Python, I created a Chess Engine and an AI agent which
+              can play chess using the engine.
             </p>{" "}
-            <p className="mt-4 text-xs font-bold tracking-wider uppercase text-blue-600">
-              Read More
+            <p className="mt-4 text-sm font-bold tracking-wider uppercase text-blue-600">
+              Visit GitHub
             </p>
           </a>
           <a
-            href="/work/portfolio"
+            href="https://github.com/a2ys/new-website"
+            target="_blank"
             className="block w-full column lg:w-6/12 xl:w-5/12 mb-15 lg:mb-0 lg:mt-30"
           >
             <div className="relative mb-10 thumbnail">
@@ -61,9 +62,12 @@ const Work = () => {
               <div className="z-0 border-line"></div>
             </div>{" "}
             <h2 className="mb-2 h2">Portfolio Website</h2>{" "}
-            <p>My portfolio website created with React.</p>{" "}
-            <p className="mt-4 text-xs font-bold tracking-wider uppercase text-blue-600">
-              Read More
+            <p>
+              My portfolio website created in React with TypeScript and Tailwind
+              UI.
+            </p>{" "}
+            <p className="mt-4 text-sm font-bold tracking-wider uppercase text-blue-600">
+              Visit GitHub
             </p>
           </a>
         </div>
