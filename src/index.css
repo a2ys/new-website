@@ -179,11 +179,16 @@ main {
 }
 
 .anchor-link {
-    transition: box-shadow .2s cubic-bezier(.785,.135,.15,.86);
+    text-decoration: none;
+    text-decoration-color: transparent;
+    text-underline-offset: 3px;
+    transition: text-decoration-color .2s cubic-bezier(.785,.135,.15,.86), text-underline-offset .2s cubic-bezier(.785,.135,.15,.86);
 }
 
 .anchor-link:hover {
-    box-shadow: inset 0 -3px 0 0 rgb(147 197 253 / var(--tw-text-opacity));
+    text-decoration: underline;
+    text-decoration-color: rgb(147 197 253 / var(--tw-text-opacity));
+    text-underline-offset: 3px;
 }
 
 .close-link {
@@ -200,18 +205,6 @@ main {
     .menu {
         height: -webkit-fill-available
     }
-}
-
-.menu-slide-in-enter-active,.menu-slide-in-leave-active {
-    transition: all .4s cubic-bezier(.55,.055,.675,.19)
-}
-
-.menu-slide-in-enter,.menu-slide-in-leave-to {
-    transform: translateX(100%)
-}
-
-.menu-slide-in-enter-to,.menu-slide-in-leave {
-    transform: translateX(0)
 }
 
 .feather {
