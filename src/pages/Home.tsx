@@ -18,7 +18,11 @@ const Home = () => {
       <div className="mod-container mt-10 mb-20 lg:mb-40">
         <div className="flex flex-wrap items-center justify-center p-10 row">
           <div className="w-full lg:w-7/12">
-            <h2 className="mb-4 h2">Hey, I am Aayush Shukla</h2>
+            <h2 className="mb-4 h2">
+              Hey, I am Aayush Shukla
+              <span className="ml-2 wave">👋</span>
+            </h2>
+
             <p>
               An open-source developer from India. I'm skilled in developing
               programs/applications in Java and Python, and developing static
