@@ -9,11 +9,7 @@ const Work = () => {
 
   return (
     <div className="pt-10 mt-40 mb-40 lg:pt-30 lg:mt-30 lg:mb-40 sup:mb-40">
-      <div
-        data-animate="fade"
-        className="mod-container in-viewport"
-        data-in-viewport="i178"
-      >
+      <div className="mod-container">
         <p className="mb-3 text-base font-semibold tracking-wide uppercase md:text-lg text-blue-600 lg:mb-5">
           Showcase
         </p>{" "}
@@ -27,7 +23,7 @@ const Work = () => {
             href="/work/chess-ai"
             target="_blank"
             rel="noopener noreferrer"
-            className="block w-full column lg:w-6/12 xl:w-5/12 mb-15 lg:mb-0 in-viewport below-viewport"
+            className="block w-full column lg:w-6/12 xl:w-5/12 mb-15 lg:mb-0"
           >
             <div className="relative mb-10 thumbnail">
               <figure className="relative z-10 overflow-hidden">
@@ -54,7 +50,7 @@ const Work = () => {
           </a>
           <a
             href="/work/portfolio"
-            className="block w-full column lg:w-6/12 xl:w-5/12 mb-15 lg:mb-0 lg:mt-30 in-viewport below-viewport"
+            className="block w-full column lg:w-6/12 xl:w-5/12 mb-15 lg:mb-0 lg:mt-30"
           >
             <div className="relative mb-10 thumbnail">
               <figure className="relative z-10 overflow-hidden">

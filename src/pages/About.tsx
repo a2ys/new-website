@@ -8,11 +8,7 @@ const About = () => {
   return (
     <main>
       <div className="pt-10 mt-40 mb-40 lg:pt-30 lg:mt-30 lg:mb-40 sup:mb-40">
-        <div
-          data-animate="fade"
-          className="mod-container in-viewport"
-          data-in-viewport="i178"
-        >
+        <div className="mod-container">
           <p className="mb-3 text-base font-semibold tracking-wide uppercase md:text-lg text-blue-600 lg:mb-5">
             About Me
           </p>{" "}
@@ -22,11 +18,7 @@ const About = () => {
         </div>
       </div>
       <div className="mod-container">
-        <div
-          data-animate="fade"
-          className="-mt-5 about-content lg:-mt-10 mb-15 lg:mb-30 xl:w-4/6 in-viewport below-viewport"
-          data-in-viewport="i179"
-        >
+        <div className="-mt-5 about-content lg:-mt-10 mb-15 lg:mb-30 xl:w-4/6">
           <p className="mb-5">
             I am Aayush Shukla, a self-taught programmer and an open-source
             developer from India. I have worked on many open-source projects,
@@ -43,11 +35,7 @@ const About = () => {
         </div>
       </div>
       <div className="mod-container my-20 lg:my-30">
-        <div
-          data-animate="fade"
-          className="mb-20 xl:w-3/6 below-viewport in-viewport"
-          data-in-viewport="i201"
-        >
+        <div className="mb-20 xl:w-3/6">
           <h2 className="mb-4 h2">Skills</h2>{" "}
           <p>
             I have worked across a broad range of areas and have expertise in
@@ -55,11 +43,7 @@ const About = () => {
           </p>
         </div>{" "}
         <div className="flex flex-wrap justify-between row">
-          <div
-            data-animate="fade"
-            className="w-full mb-10 column lg:mb-0 lg:w-4/12 xl:w-3/12 below-viewport in-viewport"
-            data-in-viewport="i202"
-          >
+          <div className="w-full mb-10 column lg:mb-0 lg:w-4/12 xl:w-3/12">
             <div className="mb-4 lg:mb-6 text-blue-600">
               <svg className="feather">
                 <polyline points="16 18 22 12 16 6"></polyline>
@@ -72,11 +56,7 @@ const About = () => {
               many languages, out of which I best know Python and Java.
             </p>
           </div>
-          <div
-            data-animate="fade"
-            className="w-full mb-10 column lg:mb-0 lg:w-4/12 xl:w-3/12 below-viewport in-viewport"
-            data-in-viewport="i204"
-          >
+          <div className="w-full mb-10 column lg:mb-0 lg:w-4/12 xl:w-3/12">
             <div className="mb-4 lg:mb-6 text-blue-600">
               <svg className="feather">
                 <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
@@ -91,11 +71,7 @@ const About = () => {
               leading teams and strategizing roadmaps.
             </p>
           </div>
-          <div
-            data-animate="fade"
-            className="w-full mb-10 column lg:mb-0 lg:w-4/12 xl:w-3/12 below-viewport in-viewport"
-            data-in-viewport="i203"
-          >
+          <div className="w-full mb-10 column lg:mb-0 lg:w-4/12 xl:w-3/12">
             <div className="mb-4 lg:mb-6 text-blue-600">
               <svg className="feather">
                 <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
@@ -111,11 +87,7 @@ const About = () => {
       </div>
       <div className="mod-container my-20 lg:my-30">
         <div className="flex flex-wrap justify-between row">
-          <div
-            data-animate="fade"
-            className="w-full column lg:w-4/6 below-viewport in-viewport"
-            data-in-viewport="i200"
-          >
+          <div className="w-full column lg:w-4/6">
             <h2 className="mt-8 mb-8 h2">Languages and Frameworks</h2>
             <p className="mb-5">
               Listing the programming languages and frameworks I know is a bit
@@ -133,11 +105,7 @@ const About = () => {
         </div>
       </div>
       <div className="mod-container my-20 lg:my-30">
-        <div
-          data-animate="fade"
-          className="xl:w-4/6 in-viewport below-viewport"
-          data-in-viewport="i201"
-        >
+        <div className="xl:w-4/6">
           <h2 className="mb-4 h2">Vision</h2>{" "}
           <p>
             I aim to leverage my technical skills and knowledge to solve
@@ -149,11 +117,7 @@ const About = () => {
         </div>{" "}
       </div>
       <div className="mod-container my-20 lg:my-30">
-        <div
-          data-animate="fade"
-          className="xl:w-4/6 below-viewport in-viewport"
-          data-in-viewport="i201"
-        >
+        <div className="xl:w-4/6">
           <h2 className="mb-4 h2">Future</h2>{" "}
           <p>
             Out of improving on what I already know, I'm learning JavaScript and

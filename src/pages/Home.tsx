@@ -15,11 +15,7 @@ const Home = () => {
           <h1 className="mb-4 text-5xl md:text-7xl font-bold">Aayush Shukla</h1>
         </div>
       </div>
-      <div
-        data-animate="slide-up"
-        className="mod-container mt-10 mb-20 lg:mb-40 in-viewport below-viewport"
-        data-in-viewport="i0"
-      >
+      <div className="mod-container mt-10 mb-20 lg:mb-40">
         <div className="flex flex-wrap items-center justify-center p-10 row">
           <div className="w-full lg:w-7/12">
             <h2 className="mb-4 h2">Hey, I am Aayush Shukla</h2>

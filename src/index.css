@@ -116,29 +116,6 @@ li,p {
     }
 }
 
-[data-animate^=slide-up] {
-    transition: .3s cubic-bezier(.645,.045,.355,1);
-    transition-property: opacity,transform;
-    transition-duration: .75s;
-    transform: translateY(10vh)
-}
-
-[data-animate^=slide-up].in-viewport {
-    transform: translateY(0)
-}
-
-[data-animate^=fade] {
-    opacity: 0;
-    transition: .3s cubic-bezier(.645,.045,.355,1);
-    transition-property: opacity, transform;
-    transition-duration: .75s;
-}
-
-[data-animate^=fade].in-viewport {
-    opacity: 1;
-    transform: translate(0);
-}
-
 .inner {
     display: flex;
     min-height: 100vh;
