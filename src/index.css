@@ -243,3 +243,7 @@ main {
     left: 20px;
     height: 100%;
 }
+
+.thumb {
+    border: 9px solid #000;
+}
