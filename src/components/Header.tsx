@@ -19,11 +19,8 @@ const Header = () => {
       <div>
         <a
           href="/"
-          // className="header-link hidden min-[1024px]:inline-block text-l font-bold pr-4 tracking-wider text-black uppercase"
-          className={`header-link hidden min-[1024px]:inline-block text-l font-bold pr-4 tracking-wider uppercase ${
-            window.location.pathname === "/"
-              ? "header-link-active"
-              : "text-black"
+          className={`header-link hidden min-[1024px]:inline-block text-l font-bold pr-4 tracking-wider text-black uppercase ${
+            window.location.pathname === "/" ? "header-link-active" : ""
           }`}
         >
           Home
@@ -31,9 +28,7 @@ const Header = () => {
         <a
           href="/work"
           className={`header-link hidden min-[1024px]:inline-block text-l font-bold pr-4 tracking-wider text-black uppercase ${
-            window.location.pathname === "/work"
-              ? "header-link-active"
-              : "text-black"
+            window.location.pathname === "/work" ? "header-link-active" : ""
           }`}
         >
           Work
@@ -41,9 +36,7 @@ const Header = () => {
         <a
           href="/about"
           className={`header-link hidden min-[1024px]:inline-block text-l font-bold tracking-wider text-black uppercase ${
-            window.location.pathname === "/about"
-              ? "header-link-active"
-              : "text-black"
+            window.location.pathname === "/about" ? "header-link-active" : ""
           }`}
         >
           About
