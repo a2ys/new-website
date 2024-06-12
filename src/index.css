@@ -233,6 +233,7 @@ main {
 
 .thumb {
     border: 0.25rem solid #000;
+    border-radius: 0.5rem;
 }
 
 h2 .wave {
