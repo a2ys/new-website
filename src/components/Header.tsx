@@ -62,7 +62,7 @@ const Header = () => {
             <div className="space-y-4 px-10 py-10 min-[1024px]:hidden">
               <a
                 href="/"
-                className={`block text-xl ${
+                className={`block text-xl text-center ${
                   window.location.pathname === "/"
                     ? "font-semibold text-blue-600"
                     : "font-medium text-black"
@@ -72,7 +72,7 @@ const Header = () => {
               </a>
               <a
                 href="/work"
-                className={`block text-xl ${
+                className={`block text-xl text-center ${
                   window.location.pathname === "/work"
                     ? "font-semibold text-blue-600"
                     : "font-medium text-black"
@@ -82,7 +82,7 @@ const Header = () => {
               </a>{" "}
               <a
                 href="/about"
-                className={`block text-xl ${
+                className={`block text-xl text-center ${
                   window.location.pathname === "/about"
                     ? "font-semibold text-blue-600"
                     : "font-medium text-black"
