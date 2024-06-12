@@ -44,7 +44,7 @@ const Work = () => {
             </p>
           </a>
           <a
-            href="https://github.com/a2ys/new-website"
+            href="https://github.com/a2ys/website"
             target="_blank"
             className="block w-full column lg:w-6/12 xl:w-5/12 mt-32 lg:mt-0"
           >
