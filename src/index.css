@@ -231,18 +231,8 @@ main {
     fill: none;
 }
 
-.border-line {
-    transition: all .3s cubic-bezier(.785,.135,.15,.86);
-    border: 9px solid #000;
-    position: absolute;
-    top: 20px;
-    right: -20px;
-    left: 20px;
-    height: 100%;
-}
-
 .thumb {
-    border: 9px solid #000;
+    border: 0.25rem solid #000;
 }
 
 h2 .wave {
@@ -262,4 +252,18 @@ h2:hover .wave {
     .phone-socials {
         display: block;
     }
+}
+
+.header-link {
+    text-decoration: none;
+    text-decoration-color: transparent;
+    text-underline-offset: 0.2rem;
+    transition: text-decoration-color .2s cubic-bezier(.785,.135,.15,.86), text-underline-offset .2s cubic-bezier(.785,.135,.15,.86);
+}
+
+.header-link:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(0 0 0);
+    text-decoration-thickness: 0.2rem;
+    text-underline-offset: 0.2rem;
 }
