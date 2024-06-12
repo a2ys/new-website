@@ -8,7 +8,7 @@ const Header = () => {
   };
 
   return (
-    <div className="fixed top-0 left-0 right-0 z-40 flex justify-between px-4 py-4 bg-white lg:bg-transparent">
+    <div className="fixed top-0 left-0 right-0 z-40 flex justify-between p-4 bg-white lg:bg-transparent">
       <a
         href="/"
         className="text-xl font-bold tracking-wide text-black uppercase title"
@@ -58,34 +58,34 @@ const Header = () => {
           </button>
         </div>
         {isMenuOpen && (
-          <div className="absolute top-full right-8 z-10 flex w-auto flex-col justify-center rounded-xl bg-black min-[1024px]:hidden">
+          <div className="absolute top-full right-8 z-10 flex w-auto flex-col justify-center rounded-md shadow-xl bg-blue-100 min-[1024px]:hidden">
             <div className="space-y-4 px-10 py-10 min-[1024px]:hidden">
               <a
                 href="/"
-                className={`block text-xl font-mediu ${
+                className={`block text-xl ${
                   window.location.pathname === "/"
-                    ? "text-blue-400"
-                    : "text-white"
+                    ? "font-semibold text-blue-600"
+                    : "font-medium text-black"
                 }`}
               >
                 Home
               </a>
               <a
                 href="/work"
-                className={`block text-xl font-medium ${
+                className={`block text-xl ${
                   window.location.pathname === "/work"
-                    ? "text-blue-400"
-                    : "text-white"
+                    ? "font-semibold text-blue-600"
+                    : "font-medium text-black"
                 }`}
               >
                 Work
               </a>{" "}
               <a
                 href="/about"
-                className={`block text-xl font-medium ${
+                className={`block text-xl ${
                   window.location.pathname === "/about"
-                    ? "text-blue-400"
-                    : "text-white"
+                    ? "font-semibold text-blue-600"
+                    : "font-medium text-black"
                 }`}
               >
                 About
