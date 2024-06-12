@@ -5,7 +5,7 @@ const Footer = () => {
         <div className="flex flex-wrap justify-between items-center">
           <div className="flex flex-col lg:w-4/6">
             <div>
-              <h4 className="mb-2 text-sm font-semibold tracking-wider uppercase text-blue-300 lg:mb-4">
+              <h4 className="mb-2 text-sm font-semibold tracking-wider uppercase text-blue-400 lg:mb-4">
                 Interested in working together? Drop a mail.
               </h4>{" "}
               <a
@@ -16,7 +16,7 @@ const Footer = () => {
               </a>
             </div>
             <div className="phone-socials">
-              <h4 className="mt-8 mb-4 text-sm font-semibold tracking-wider uppercase text-blue-300">
+              <h4 className="mt-8 mb-4 text-sm font-semibold tracking-wider uppercase text-blue-400">
                 My socials
               </h4>{" "}
               <nav>
@@ -93,7 +93,7 @@ const Footer = () => {
             </div>
           </div>{" "}
           <div className="hidden lg:block lg:w-3/12 xl:w-1/6">
-            <h4 className="mb-4 text-sm font-semibold tracking-wider uppercase text-blue-300">
+            <h4 className="mb-4 text-sm font-semibold tracking-wider uppercase text-blue-400">
               Quick Links
             </h4>{" "}
             <nav>
@@ -112,7 +112,7 @@ const Footer = () => {
                 <span className="anchor-link">About</span>
               </a>
             </nav>
-            <h4 className="mt-4 mb-4 text-sm font-semibold tracking-wider uppercase text-blue-300">
+            <h4 className="mt-4 mb-4 text-sm font-semibold tracking-wider uppercase text-blue-400">
               My socials
             </h4>{" "}
             <nav>

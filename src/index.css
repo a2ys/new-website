@@ -268,3 +268,10 @@ h2:hover .wave {
     text-decoration-thickness: 0.2rem;
     text-underline-offset: 0.2rem;
 }
+
+.header-link-active {
+    text-decoration: underline;
+    text-decoration-color: rgb(0 0 0);
+    text-decoration-thickness: 0.2rem;
+    text-underline-offset: 0.2rem;
+}

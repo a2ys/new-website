@@ -8,7 +8,7 @@ const Header = () => {
   };
 
   return (
-    <div className="fixed top-0 left-0 right-0 z-40 flex justify-between px-6 py-4 bg-white lg:bg-transparent">
+    <div className="fixed top-0 left-0 right-0 z-40 flex justify-between px-4 py-4 bg-white lg:bg-transparent">
       <a
         href="/"
         className="text-xl font-bold tracking-wide text-black uppercase title"
@@ -18,14 +18,33 @@ const Header = () => {
       </a>
       <div>
         <a
+          href="/"
+          // className="header-link hidden min-[1024px]:inline-block text-l font-bold pr-4 tracking-wider text-black uppercase"
+          className={`header-link hidden min-[1024px]:inline-block text-l font-bold pr-4 tracking-wider uppercase ${
+            window.location.pathname === "/"
+              ? "header-link-active"
+              : "text-black"
+          }`}
+        >
+          Home
+        </a>
+        <a
           href="/work"
-          className="header-link hidden min-[1024px]:inline-block text-l font-bold pr-4 tracking-wider text-black uppercase"
+          className={`header-link hidden min-[1024px]:inline-block text-l font-bold pr-4 tracking-wider text-black uppercase ${
+            window.location.pathname === "/work"
+              ? "header-link-active"
+              : "text-black"
+          }`}
         >
           Work
         </a>
         <a
           href="/about"
-          className="header-link hidden min-[1024px]:inline-block text-l font-bold tracking-wider text-black uppercase"
+          className={`header-link hidden min-[1024px]:inline-block text-l font-bold tracking-wider text-black uppercase ${
+            window.location.pathname === "/about"
+              ? "header-link-active"
+              : "text-black"
+          }`}
         >
           About
         </a>
@@ -48,13 +67,34 @@ const Header = () => {
         {isMenuOpen && (
           <div className="absolute top-full right-8 z-10 flex w-auto flex-col justify-center rounded-xl bg-black min-[1024px]:hidden">
             <div className="space-y-4 px-10 py-10 min-[1024px]:hidden">
-              <a href="/" className="block text-xl font-medium text-white">
+              <a
+                href="/"
+                className={`block text-xl font-mediu ${
+                  window.location.pathname === "/"
+                    ? "text-blue-400"
+                    : "text-white"
+                }`}
+              >
                 Home
               </a>
-              <a href="/work" className="block text-xl font-medium text-white">
+              <a
+                href="/work"
+                className={`block text-xl font-medium ${
+                  window.location.pathname === "/work"
+                    ? "text-blue-400"
+                    : "text-white"
+                }`}
+              >
                 Work
               </a>{" "}
-              <a href="/about" className="block text-xl font-medium text-white">
+              <a
+                href="/about"
+                className={`block text-xl font-medium ${
+                  window.location.pathname === "/about"
+                    ? "text-blue-400"
+                    : "text-white"
+                }`}
+              >
                 About
               </a>
             </div>
