@@ -42,7 +42,7 @@ const Header = () => {
           About
         </a>
         <div className="relative flex items-center justify-center min-[1024px]:hidden">
-          <button onClick={handleToggle}>
+          <button onClick={handleToggle} aria-label="Hamburger Menu Icon">
             {isMenuOpen ? (
               <svg className="feather">
                 <line x1="18" y1="6" x2="6" y2="18"></line>
